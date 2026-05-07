@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zim.saucy.schools</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header>
+  <h1>zim.saucy_schools</h1>
+  <p>Your Schools Gallery 🇿🇼</p>
+
+  <div class="buttons">
+    <a href="#features">Features</a>
+    <a href="#submit">Submit</a>
+    <a href="#rankings">Rankings</a>
+    <a href="https://instagram.com/zim_saucy_schools" target="_blank">Instagram</a>
+    <a href="https://wa.me/27818733386" target="_blank">WhatsApp</a>
+  </div>
+</header>
+
+<section id="features">
+  <h2>🔥 Latest Features</h2>
+  <div class="card">School Feature 1</div>
+  <div class="card">School Feature 2</div>
+  <div class="card">School Feature 3</div>
+</section>
+
+<section id="top">
+  <h2>🏫 Top Schools</h2>
+  <div class="card">1. School A</div>
+  <div class="card">2. School B</div>
+  <div class="card">3. School C</div>
+</section>
+
+<section id="submit">
+  <h2>📸 Submit Your School</h2>
+
+  <input type="text" id="name" placeholder="Your Name"/>
+  <input type="text" id="school" placeholder="School Name"/>
+  <input type="file" id="image"/>
+
+  <button onclick="sendWhatsApp()">Submit via WhatsApp</button>
+</section>
+
+<section id="rankings">
+  <h2>📊 School Rankings</h2>
+  <div class="card">Ranking system coming soon</div>
+</section>
+
+<section id="events">
+  <h2>📅 Events</h2>
+  <div class="card">School events updates</div>
+</section>
+
+<section id="about">
+  <h2>ℹ️ About Us</h2>
+  <p>
+    Zim.saucy.schools is Zimbabwe’s premium school culture platform
+    showcasing uniforms, schools, and student life.
+  </p>
+</section>
+
+<section id="ads">
+  <h2>📢 Advertise With Us</h2>
+  <a class="wa-btn" href="https://wa.me/27818733386" target="_blank">
+    Contact on WhatsApp
+  </a>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
