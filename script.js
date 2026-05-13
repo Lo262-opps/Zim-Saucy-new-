@@ -8,3 +8,11 @@ function sendWhatsApp() {
 
   window.open(url, "_blank");
 }
+function showSchools(){
+
+  document.getElementById("schools-section")
+  .scrollIntoView({
+    behavior:"smooth"
+  });
+
+}
